@@ -1,8 +1,9 @@
+#Check if the guessed chacter is in the word
 import random
 
 word_list=['apple', 'banana', 'orange', 'mango', 'grapes']
 word=random.choice(word_list)
-print(word)
+#print(word)
 
 
 def check_guess(guess):
